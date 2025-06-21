@@ -1,6 +1,6 @@
-# Consigna
+# Ejercicio Socket - Thread
 
-Realizar un programa con sockets y threading que realice lo siguiente
+>Realizar un programa con sockets y threading que realice lo siguiente
 
 #### Servidor
 
@@ -19,6 +19,5 @@ El cliente tiene que poder conectarse al servidor y recibir el menú y poder ing
 
 #### Ambas deben ser con dos hilos uno para envio y otro para recepcion.
 
-### COSAS AGREGADAS POR EL ALUMNO:
-
-+ Se adicionó un comando ```/help``` para poder visualizar los comandos
+>COSAS AGREGADAS POR EL ALUMNO:
+>+ Se adicionó un comando ```/help``` para poder visualizar los comandos
