@@ -31,8 +31,13 @@ def enviar():
                     nombre = input("Ingrese el nombre: ")
                     cliente.send(f"{mensaje}{nombre}".encode("utf-8"))
                 elif mensaje.lower() == "/send":
-                    privado = input("Ingrese el Nombre con quien desea hablar: ")
-                    cliente.send(f"{mensaje}{privado}".encode("utf-8"))
+                    privado = input("Ingrese el Nombre del destinatario: ")
+                    mensaje_privado = input("Ingrese su mensaje: ")
+                    cliente.send(f"/send {privado} {mensaje_privado}".encode("utf-8"))
+                elif mensaje.lower() == "/private":
+                    nombre = input("ingrese en nombre con quien desea hablar")
+                    cliente.send(f"/private{nombre}")
+                
                 else:
                     cliente.send(mensaje.encode("utf-8"))
             except Exception as e:
