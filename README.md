@@ -21,3 +21,4 @@ El cliente tiene que poder conectarse al servidor y recibir el menú y poder ing
 
 >COSAS AGREGADAS POR EL ALUMNO:
 >+ Se adicionó un comando ```/help``` para poder visualizar los comandos
+>+ Se Adicionó un comando ```/clear``` para limpiar la terminal
